@@ -1,0 +1,154 @@
+*{
+	margin: 0 auto;	
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	max-width: 1600px;
+}
+
+/*Header*/
+header{
+	height: 391px;
+	background-image: url(images/banner.png);
+}
+.menu__wrapper{
+	max-width: 1185px;
+}
+.menu{
+	text-align: right;
+}
+.menu li{
+	display: inline;
+	color: #fff;
+	font-size: 14px;
+}
+.title__wrapper{
+	max-width: 370px;
+}
+.title{
+	text-align: center;
+	color: #fff;
+}
+.first__title{
+    font-size: 50px;
+}
+.second__title{
+	font-size: 36px;
+}
+
+
+/*Main*/
+main{
+	margin: 0;
+}
+.container__main{
+	max-width: 1170px;
+}
+.main__wrapp{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+	grid-gap: 2.36vw;
+}
+.main__grid-wrapp{
+	display: grid;
+	text-align: center;
+	height: 157px;
+	margin: 0;
+	background-color: #734b91;
+}
+.grid-wrapp__img{
+	height: 105px;
+	margin: 0;
+}
+/*.grid-wrapp__img img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}*/
+.grid-wrapp__img-footer{
+	color: #fff;
+	background: #000;
+	margin: 0;
+}
+.grid-wrapp__img img{
+	padding: 35px;
+}
+
+
+/*Redmine*/
+.redmine__grid{
+	display: grid;
+	grid-template-columns: 485px 685px;
+}
+.redmine__logo{
+	padding: 40px 0 40px 0;
+    margin-left: 0;	
+	text-align: left;
+}
+.redmine__logo img{
+    padding: 35px 0 35px 0;
+}
+.redmine__items{
+	padding: 40px 0 40px 0;
+	margin: 0;	
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-column-gap: 35px;
+    grid-row-gap: 14px;
+}
+.redmine__item-grid{
+	height: 55px;
+	text-align: center;
+	margin: 0;
+    background-color: #d7d7d7;
+}
+.redmine__item-grid p{
+	padding: 20px;
+}
+
+
+
+
+/*Opasity*/
+.main__grid-opasity{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(216px, 1fr));
+	grid-gap: 1.45vw;
+}
+.main__grid-opasity-wrapp{
+	text-align: center;
+	height: 107px;
+	margin: 0;
+}
+.grid-opasity__img{
+	padding: 25px;
+}
+
+
+
+/*Curaden Main*/
+.curaden__main-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+
+
+/*Main Flex Item*/
+.items__in-main{
+	height: 100px;
+	background-color: #ebebeb;
+}
+.container__main{
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 30px;
+}
+
+
+
